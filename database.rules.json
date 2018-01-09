@@ -1,0 +1,15 @@
+{
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null"
+  }
+},
+{
+  "rules": {
+    "posts": {
+       "$uid": {
+         ".write": "root.child('users').child('moderator').val() === true"
+       }
+     }
+   }
+}
