@@ -13,7 +13,7 @@ The idea is to prove out an approach or component in the simplest project first,
 
 # \<poly-on-fire-roles-DB-permissions\>
 
-#PROJECT IRRELEVANT BECAUSE:
+# PROJECT IRRELEVANT BECAUSE:
 
 Since writing this project I discovered JWT Custom Claims from this video
 https://youtu.be/JOASK1BL67M
